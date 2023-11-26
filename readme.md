@@ -1,23 +1,37 @@
-# Project Description
+# SecureNet Services Portal
 
-This project is a robust web application developed using C#, XML, and .ASP NET. It is designed to provide a secure and efficient user experience.
+SecureNet Services Portal is a comprehensive web application developed using C#, XML, and .ASP NET. The application is designed to provide a secure, efficient, and user-friendly experience.
 
-## Main Features
+## Features
 
-### Authentication
-The application uses cookies to authenticate users. After authentication, it retrieves the username and role of the user.
+### Authentication and Access Control
+
+The application uses cookies for user authentication. After successful authentication, it retrieves the user's username and role. Access to different pages is controlled based on the user's role and login status.
 
 ### Data Security
-The application ensures data security through DLL encryption/decryption. It converts strings to and from Base64 during member/staff signup and login.
+
+Data security is ensured through DLL encryption/decryption. The application converts strings to and from Base64 during member/staff signup and login, ensuring that sensitive information is securely handled.
 
 ### User Verification
-A Captcha user control is used to verify member signups. It generates a captcha image that the user must match to proceed.
+
+User verification is implemented using a Captcha user control during member signups. This feature generates a captcha image that the user must match to proceed with the signup process.
 
 ### Data Handling
-The application uses XML file manipulation to store and retrieve usernames and passwords of members/staff.
+
+The application uses XML file manipulation for storing and retrieving usernames and passwords of members and staff. This ensures efficient data handling and retrieval.
 
 ### User Interface
-The application includes a default page with descriptions and links to member and staff pages, and a service page containing the services a member uses. It also has separate pages for member signup/login and staff login.
+
+The application provides a user-friendly interface with a default page containing descriptions and links to member and staff pages, a service page containing the services a member can use, and separate pages for member signup/login and staff login.
 
 ### Additional Services
-The application provides additional services like finding the nearest store using Google APIs, currency conversion using the ExchangeRate API, and a 5-day weather forecast using the openweathermap.org API.
+
+The application offers additional services like finding the nearest store using Google APIs, currency conversion using the ExchangeRate API, and a 5-day weather forecast using the openweathermap.org API.
+
+### Service Directory
+
+The application includes a comprehensive Service Directory listing all the components and services used in the application. Each entry in the directory includes the provider name, component type, operation name, parameters and their types, return type, function description, and a link to a TryIt page or an item in the web presentation layer GUI.
+
+### Member and Staff Pages
+
+The Member page allows users to register (self-subscribe) to access the services offered by the application. The Staff page allows the administrator to add staff members and view the number of members. Access to these pages is controlled based on the user's role and login status.

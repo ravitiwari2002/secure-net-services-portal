@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ppX0x6WkXZOjv5zkhRKeb0Yrex/yi8djyZ+WN+JW2357tbwRn49rP8rXr75Csu6RyFQe8QrNqgS9q40O+uBcSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ravit\\Desktop\\P5\\EncDec\\EncDec.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ravit\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ravit\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
